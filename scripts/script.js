@@ -61,6 +61,20 @@ function lancerJeu() {
         })
     }
 
+    let form = document.querySelector("form")
+form.addEventListener('submit', (event) => {
+    event.preventDefault()
+
+let baliseNom = document.getElementById("nom")
+let nom = baliseNom.value
+
+let baliseEmail = document.getElementById("email")
+let email = baliseEmail.value
+console.log(nom, email)
+})
+
+
     afficherResultat(score, i)
 }
+
 

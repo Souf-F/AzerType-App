@@ -52,15 +52,11 @@ function lancerJeu() {
     let listeBtnRadio = document.querySelectorAll(".optionSource input")
     for (let index = 0; index < listeBtnRadio.length; index++) {
         listeBtnRadio[index].addEventListener("change", (event) => {
-            // Si c'est le premier élément qui a été modifié, alors nous voulons
-            // jouer avec la listeMots. 
             if (event.target.value === "1") {
                 listeProposition = listeMots
             } else {
-                // Sinon nous voulons jouer avec la liste des phrases
                 listeProposition = listePhrases
             }
-            // Et on modifie l'affichage en direct. 
             afficherProposition(listeProposition[i])
         })
     }

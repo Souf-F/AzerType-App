@@ -7,7 +7,7 @@
 lancerJeu()
 
 let inputEcriture = document.getElementById("inputEcriture")
-onsole.log(inputEcriture)
+console.log(inputEcriture)
 
 let btnValiderMot = document.getElementById("btnValiderMot")
 console.log(btnValiderMot)
@@ -20,3 +20,5 @@ console.log(spanScore)
 
 let listeBtnRadio = document.querySelectorAll(".optionSource input")
 console.log(listeBtnRadio)
+
++lancerJeu()

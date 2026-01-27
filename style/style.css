@@ -12,9 +12,10 @@
  */
 
 body {
-    --color-primary: #000f91;
-    --color-secondary: #460404;
-    --color-tertiary: #ffffff;    
+    --color-primary: #020000;
+    --color-secondary: #000000;
+    --color-tertiary: #919191;    
+    background-color: #51008b
 }
 
 /* Mise en forme des titres */
@@ -22,21 +23,21 @@ h1 {
     margin: 10px;
     font-size: 60px;
     font-weight: 900;
-    color: var(--color-primary);
+    color: rgb(25, 188, 0);
 }
 
 h2 {
     margin: 10px;
     font-size: 30px;
     font-weight: 600;
-    color: var(--color-secondary);
+    color: white;
 }
 
 h3 {
     margin: 10px;
     font-size: 17px;
     font-weight: 500;
-    color: var(--color-secondary);
+    color: white;
 }
 
 /* Mise en forme des formulaires */
@@ -71,7 +72,7 @@ button {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 17px;
-    color: var(--color-secondary);
+    color: rgb(0, 0, 0);
     background-color: white;
 }
 
